@@ -59,3 +59,65 @@ body {
   padding-top: 20px;
   padding: 20px 0;
 }
+
+.sectionOne {
+  display: flex;
+  background-color: lightgrey;
+}
+
+.sectionOne h3,
+.sectionTwo h3 {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.sectionOne p,
+.sectionTwo p {
+  padding: 0 30px;
+  padding-bottom: 15px;
+}
+
+.sectionOne__about {
+  text-align: center;
+}
+
+.sectionOne__about--header {
+  
+}
+
+.sectionOne__what {
+  text-align: center;
+}
+
+.sectionOne__what--header {
+  
+}
+
+.sectionTwo{
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionTwo__offer {
+  text-align: center;
+  background-color: beige;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.sectionTwo__offer--list {
+  list-style: none;
+}
+
+.sectionTwo__offer--list--items {
+  text-align: 
+}
+
+.sectionTwo__contact {
+  text-align: center;
+  background-color: azure;
+}
+
+.sectionTwo__contact--form label {
+  display: block;
+}
