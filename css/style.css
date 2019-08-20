@@ -31,3 +31,31 @@ body {
 .nav__list--item:hover {
   color: coral;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: url('../img/header.jpg') no-repeat center center/cover;
+}
+
+.header__title {
+  font-size: 3rem;
+  background-color: white;
+  height: 5vh;
+  width: 100%;
+  opacity: 0.85;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.header__paragrahp {
+  background-color: antiquewhite;
+  width: 100%;
+  opacity: 0.85;
+  padding-top: 20px;
+  padding: 20px 0;
+}
