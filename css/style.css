@@ -1,6 +1,33 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8rem;
+}
+
+.nav {
+  background-color: grey;
+  opacity: 0.85;
+  position: sticky;
+  top: 0;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.nav__list--item {
+  font-size: 1.2rem;
+  color: white;
+  padding: 10px 0;
+}
+
+.nav__list--item:hover {
+  color: coral;
+}
